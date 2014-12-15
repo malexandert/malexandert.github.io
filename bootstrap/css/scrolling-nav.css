@@ -25,6 +25,10 @@ html {
     height: 100%;
 }
 
+h1, h2, p {
+    font-weight: 300;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -68,10 +72,6 @@ of those sections to manage the look and feel of the site. */
     margin: 0px auto;
     color: white;
     background: rgba(0,0,0,0.8);
-}
-
-h1, h2, p {
-    font-weight: 300;
 }
 
 .intro-section-title {
