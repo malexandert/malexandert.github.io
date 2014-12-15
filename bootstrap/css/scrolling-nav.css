@@ -38,6 +38,16 @@ of those sections to manage the look and feel of the site. */
     color: #fff;
 }
 
+.container {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 25%;
+    vertical-align: middle;
+    margin: 0px auto;
+    color: white;
+    background: rgba(0,0,0,0.8);
+}
+
 .intro-section {
     height: 100%;
     padding-top: 150px;
@@ -48,15 +58,6 @@ of those sections to manage the look and feel of the site. */
     background-size: cover;
     background-position: center;
     background-color: #000000;
-}
-
-.container {
-    position: relative;
-    top: 25%;
-    vertical-align: middle;
-    margin: 0px auto;
-    color: white;
-    background: rgba(0,0,0,0.8);
 }
 
 .intro-section-title {
