@@ -34,12 +34,12 @@ of those sections to manage the look and feel of the site. */
 
 .navbar {
     background-color: black;
-    font-weight: 900;
+    font-weight: 700;
     color: #fff;
 }
 
 .container {
-    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     position: relative;
     top: 25%;
     vertical-align: middle;
