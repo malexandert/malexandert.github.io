@@ -32,12 +32,18 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
+.navbar {
+    background-color: black;
+    font-weight: 900;
+    color: #fff;
+}
+
 .intro-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     color: #fff;
-    background: url("../../assets/pictures/intro-section-background-2.jpg");
+    background: url("../../assets/pictures/intro-section-background-bw.jpg");
     background-size: cover;
     background-position: center;
     background-color: #000000;
@@ -47,14 +53,14 @@ of those sections to manage the look and feel of the site. */
     font-size: 64px;
     margin: 25% auto 0px auto;
     vertical-align: middle;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
 }
 
 .intro-section-subtitle {
     font-size: 32px;
     margin: 0px auto 10px auto;
     vertical-align: middle;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
 }
 
 .intro-section-paragraph {
@@ -65,9 +71,18 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 50px;
+    padding-top: 150px;
+    color: #ddd;
     text-align: center;
-    background: #000;
+    background: url("../../assets/pictures/about-section-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #444;
+}
+
+.about-section-title {
+    font-size: 45px;
+    margin: 25% auto 0px auto;
 }
 
 .about-section-paragraph {
