@@ -42,6 +42,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
+    vertical-align: middle;
     color: #fff;
     background: url("../../assets/pictures/intro-section-background-bw.jpg");
     background-size: cover;
@@ -49,24 +50,31 @@ of those sections to manage the look and feel of the site. */
     background-color: #000000;
 }
 
+.container {
+    position: relative;
+    top: 25%;
+    vertical-align: middle;
+    margin: 0px auto;
+    color: white;
+    background: rgba(0,0,0,0.8);
+}
+
 .intro-section-title {
     font-size: 64px;
-    margin: 25% auto 0px auto;
+    margin: 0px auto;
+    position: relative;
     vertical-align: middle;
-    background: rgba(0,0,0,0.7);
 }
 
 .intro-section-subtitle {
     font-size: 32px;
     margin: 0px auto 10px auto;
-    vertical-align: middle;
-    background: rgba(0,0,0,0.7);
 }
 
 .intro-section-paragraph {
+    margin: 0px auto;
     font-size: 32px;
     margin: 40px auto;
-    background: rgba(0,0,0,0.5);
 }
 
 .about-section {
@@ -80,21 +88,21 @@ of those sections to manage the look and feel of the site. */
     background-color: #444;
 }
 
-.about-section-title {
-    font-size: 45px;
-    margin: 25% auto 0px auto;
+.about-section-paragraph-2 {
+    margin: 0px auto 10px auto;
 }
 
-.about-section-paragraph {
-    color: white;
-    background: rgba(250,250,250,0.2);
+.about-section-title {
+    font-size: 45px;
 }
 
 .photography-section {
     height: 100%;
     padding-top: 50px;
     text-align: center;
-    background: #fff;
+    background: url("../../assets/pictures/photography-section-background.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .contact-section {
