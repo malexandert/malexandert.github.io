@@ -62,6 +62,7 @@ of those sections to manage the look and feel of the site. */
 .intro-section-title {
     font-size: 64px;
     font-weight: 300;
+    font-family: 'Lato', sans-serif;
     margin: 0px auto;
     position: relative;
     vertical-align: middle;
