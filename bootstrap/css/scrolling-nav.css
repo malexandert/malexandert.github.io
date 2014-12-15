@@ -61,6 +61,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section-title {
     font-size: 64px;
+    font-weight: 300;
     margin: 0px auto;
     position: relative;
     vertical-align: middle;
@@ -68,6 +69,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section-subtitle {
     font-size: 32px;
+    font-weight: 300;
     margin: 0px auto 10px auto;
 }
 
