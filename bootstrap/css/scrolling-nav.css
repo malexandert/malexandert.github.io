@@ -61,7 +61,7 @@ of those sections to manage the look and feel of the site. */
     color: #fff;
     background: url("../../assets/pictures/intro-section-background-bw.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 0px -300px;
     background-color: #000000;
 }
 
@@ -71,11 +71,11 @@ of those sections to manage the look and feel of the site. */
     vertical-align: middle;
     margin: 0px auto;
     color: white;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.6);
 }
 
 .intro-section-title {
-    font-size: 64px;
+    font-size: 80px;
 
     margin: 0px auto;
     position: relative;
@@ -83,7 +83,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .intro-section-subtitle {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 300;
     margin: 0px auto 10px auto;
 }
@@ -96,17 +96,15 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
     color: #ddd;
+    margin: 0px auto;
     text-align: center;
-    background: url("../../assets/pictures/about-section-background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-color: #444;
+    background-color: #000;
 }
 
-.about-section-paragraph-2 {
-    margin: 0px auto 10px auto;
+.about-section-paragraphs {
+    font-size: 25px;
+    margin: 0px auto;
 }
 
 .about-section-title {
