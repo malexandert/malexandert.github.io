@@ -59,9 +59,9 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     vertical-align: middle;
     color: #fff;
-    background: url("../../assets/pictures/intro-section-background-bw.jpg");
+    background: url("../../assets/pictures/intro-section-background-bw-compressed.jpg");
     background-size: cover;
-    background-position: 0px -300px;
+    background-position: center;
     background-color: #000000;
 }
 
