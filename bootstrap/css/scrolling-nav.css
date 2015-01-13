@@ -13,6 +13,9 @@ body {
     -webkit-animation-duration: 0.1s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: linear;
+    background: url("../../assets/pictures/intro-section-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000000;
 }
 
 @-webkit-keyframes fontfix {
@@ -48,31 +51,19 @@ h1, h2, p {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.navbar-default {
-    background-color: black !important;
-    font-weight: 400;
-    color: #fff;
-}
-
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 300px;
     text-align: center;
     vertical-align: middle;
     color: #fff;
-    background: url("../../assets/pictures/intro-section-background-bw-compressed.jpg");
-    background-size: cover;
-    background-position: center;
-    background-color: #000000;
 }
 
-.container {
-    position: relative;
-    top: 25%;
-    vertical-align: middle;
-    margin: 0px auto;
+.intro-section .container {
+    position: absolute;
+    width: 100%;
     color: white;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.7) center;
 }
 
 .intro-section-title {
@@ -94,12 +85,39 @@ of those sections to manage the look and feel of the site. */
     margin: 40px auto;
 }
 
+.links {
+    list-style-type: none;
+    margin: -10px 0px 30px 0px;
+    padding: 0;
+}
+
+.links li {
+    display: inline;
+    margin: 0px 5px;
+}
+
+/*.github-link {
+    width: 32px;
+    height: 32px;
+    position: center;
+    margin: 30px auto;
+}
+
+.linkedin-link {
+    width: 32px;
+    height: 32px;
+    position: center;
+    margin: 30px auto;
+}*/
+
+
+
 .about-section {
     height: 100%;
     color: #ddd;
     margin: 0px auto;
     text-align: center;
-    background-color: #000;
+
 }
 
 .about-section-paragraphs {
